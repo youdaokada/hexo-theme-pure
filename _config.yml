@@ -30,9 +30,9 @@ site:
     enabled: true
     width: 40
     height: 40
-    url: ../images/logo.png
-  title: Kada # 页面title
-  favicon: /favicon.png
+    url: images/kada.png
+  title:  有道卡搭|前端早读 # 页面title
+  favicon: images/favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: false # 底部版权信息
 
@@ -127,8 +127,8 @@ comment:
     ClientID:  #必须. GitHub Application Client ID.
     ClientSecret:  #必须. GitHub Application Client Secret.
   valine: # Valine. https://valine.js.org
-    appid:  # your leancloud application appid
-    appkey:  # your leancloud application appkey
+    appid:  jX6QJWv1R2r7YhMckVtxipx6-gzGzoHsz # your leancloud application appid
+    appkey: aSDW4mqPz7C3M8GkPhmbOa6D # your leancloud application appkey
     notify: false # mail notifier , https://github.com/xCss/Valine/wiki
     verify: false # Verification code
     placeholder: Just go go # comment box placeholder
@@ -223,7 +223,7 @@ profile:
     - 前端
     - 前端开发
     - 前端早读
-    
+
   # My Personal Works
   works:
     name:
@@ -233,3 +233,20 @@ profile:
   projects:
     # cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
     # cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+
+# hexo-neat
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:  
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js' 
