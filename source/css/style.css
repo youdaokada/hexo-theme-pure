@@ -5459,7 +5459,10 @@ table table {
 .icon-gitee:before {
   content: "\e61d";
 }
-
+/** ali 网络icon样式覆盖 **/ 
+.ali-icon {
+    font-size: 14px;
+}
 pre .comment {
   color: #8e908c;
 }
